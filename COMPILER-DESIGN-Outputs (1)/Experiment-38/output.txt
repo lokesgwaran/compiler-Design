@@ -1,0 +1,9 @@
+EXPERIMENT 38: LEX - Length of Longest Word
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp38
+Enter sentence: Compiler design laboratory
+Longest word: laboratory
+Length: 10

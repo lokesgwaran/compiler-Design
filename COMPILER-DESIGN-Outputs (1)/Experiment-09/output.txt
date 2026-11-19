@@ -1,0 +1,14 @@
+EXPERIMENT 09: Elimination of Left Recursion
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp09
+Original grammar:
+S -> (L) | a
+L -> L,S | S
+
+Grammar after eliminating left recursion:
+S  -> (L) | a
+L  -> S L'
+L' -> , S L' | epsilon

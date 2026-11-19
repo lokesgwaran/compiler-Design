@@ -1,0 +1,10 @@
+EXPERIMENT 32: LEX - Count Positive and Negative Numbers
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp32
+Enter numbers: 12 -5 0 -3 8
+Positive numbers : 2
+Negative numbers : 2
+Zeros            : 1

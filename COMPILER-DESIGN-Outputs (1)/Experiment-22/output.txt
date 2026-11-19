@@ -1,0 +1,16 @@
+EXPERIMENT 22: LEX - Extract HTML Tags
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp22 < sample.html
+HTML tags found:
+<html>
+<body>
+<h1>
+</h1>
+<p>
+</p>
+</body>
+</html>
+Total tags: 8

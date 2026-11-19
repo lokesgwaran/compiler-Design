@@ -1,0 +1,14 @@
+EXPERIMENT 23: LEX - Add Line Numbers to a File
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp23 < sample.c
+1  #define PI 3.14
+2  #include<stdio.h>
+3  #include<conio.h>
+4  void main()
+5  {
+6      int a,b,c = 30;
+7      printf("hello");
+8  }

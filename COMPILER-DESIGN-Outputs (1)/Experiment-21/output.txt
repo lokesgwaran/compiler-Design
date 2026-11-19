@@ -1,0 +1,14 @@
+EXPERIMENT 21: LEX - Count Vowels
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp21
+Enter a sentence: Compiler Design is interesting
+Vowels:
+a/A : 0
+e/E : 4
+i/I : 5
+o/O : 1
+u/U : 0
+Total vowels: 10

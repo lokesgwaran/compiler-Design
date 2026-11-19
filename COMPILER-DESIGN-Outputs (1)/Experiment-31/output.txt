@@ -1,0 +1,16 @@
+EXPERIMENT 31: LEX - Separate Keywords and Identifiers
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp31 < sample.c
+KEYWORDS:
+int
+void
+printf
+
+IDENTIFIERS:
+main
+a
+b
+c

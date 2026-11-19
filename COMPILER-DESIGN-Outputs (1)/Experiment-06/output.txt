@@ -1,0 +1,10 @@
+EXPERIMENT 06: Lexical Analyzer - Identifier Validation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp06
+Enter identifier: student_name
+student_name : VALID IDENTIFIER
+Enter identifier: 2value
+2value : INVALID IDENTIFIER

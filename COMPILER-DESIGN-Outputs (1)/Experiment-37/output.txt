@@ -1,0 +1,9 @@
+EXPERIMENT 37: LEX - Word Frequency in a Sentence
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp37
+Enter sentence: the compiler is a compiler tool
+Enter word to search: compiler
+Frequency of 'compiler' = 2

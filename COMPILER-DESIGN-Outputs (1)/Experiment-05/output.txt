@@ -1,0 +1,11 @@
+EXPERIMENT 05: Lexical Analyzer - Count Whitespaces and Newlines
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp05
+Enter text (finish with #):
+Compiler Design
+Lexical Analyzer#
+Whitespace characters : 2
+Newline characters    : 1

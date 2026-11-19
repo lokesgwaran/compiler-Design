@@ -1,0 +1,11 @@
+EXPERIMENT 26: LEX - Email Validation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp26
+Enter email: student@example.com
+student@example.com : VALID EMAIL
+
+Enter email: student@domain
+student@domain : INVALID EMAIL

@@ -1,0 +1,9 @@
+EXPERIMENT 27: LEX - Replace abc with ABC
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp27
+Enter text: abc is a sample and abc is repeated
+Output: ABC is a sample and ABC is repeated
+Replacement completed.

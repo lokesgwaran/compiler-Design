@@ -1,0 +1,12 @@
+EXPERIMENT 02: Lexical Analyzer - Comment Identification
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp02
+Enter a line: // this is a comment
+Result: SINGLE-LINE COMMENT
+Enter a line: /* block comment */
+Result: BLOCK COMMENT
+Enter a line: int value = 10;
+Result: NOT A COMMENT

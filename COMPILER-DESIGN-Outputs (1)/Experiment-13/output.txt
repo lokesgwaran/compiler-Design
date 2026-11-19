@@ -1,0 +1,11 @@
+EXPERIMENT 13: Top-Down Parsing - String Validation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp13
+Enter input string: a+a*a
+Grammar: E -> E+E | E*E | a
+Parsing result: STRING ACCEPTED
+Enter input string: a+*
+Parsing result: STRING REJECTED

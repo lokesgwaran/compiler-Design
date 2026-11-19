@@ -1,0 +1,13 @@
+EXPERIMENT 19: LEX - Count Characters, Words and Lines in sample.c
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ flex exp19.l
+$ gcc lex.yy.c -lfl -o exp19
+$ ./exp19 < sample.c
+Characters : 146
+Words      : 31
+Lines      : 8
+LEX scan completed.
+Note: illustrative counts; exact values depend on scanner rules.

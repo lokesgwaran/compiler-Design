@@ -1,0 +1,18 @@
+EXPERIMENT 29: LEX - Token Separation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp29 < sample.c
+KEYWORD      int
+IDENTIFIER   a
+DELIMITER    ,
+IDENTIFIER   b
+DELIMITER    ,
+IDENTIFIER   c
+OPERATOR     =
+CONSTANT     30
+DELIMITER    ;
+KEYWORD      printf
+STRING       "hello"
+DELIMITER    ;

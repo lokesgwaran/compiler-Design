@@ -1,0 +1,15 @@
+EXPERIMENT 12: Recursive Descent Parser
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp12
+Grammar: E -> T E'
+Input string: id+id*id
+Parsing steps:
+E  -> T E'
+T  -> F T'
+F  -> id
+T' -> epsilon
+E' -> + T E'
+Input accepted.

@@ -1,0 +1,10 @@
+EXPERIMENT 36: LEX - Basic Mathematical Operations
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp36
+Enter first number: 12
+Enter operator (+ - * /): +
+Enter second number: 4
+Result: 12 + 4 = 16

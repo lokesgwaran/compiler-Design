@@ -1,0 +1,14 @@
+EXPERIMENT 18: TRAILING Set Computation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp18
+Grammar:
+E -> E+T | T
+T -> T*F | F
+F -> (E) | id
+
+TRAILING(E) = { +, *, ), id }
+TRAILING(T) = { *, ), id }
+TRAILING(F) = { ), id }

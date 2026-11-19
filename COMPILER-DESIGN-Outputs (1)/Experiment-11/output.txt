@@ -1,0 +1,17 @@
+EXPERIMENT 11: Symbol Table Operations
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp11
+1. Insert
+2. Search
+3. Display
+4. Delete
+Choice: 1
+Enter identifier: count
+Enter type: int
+Inserted successfully.
+
+SYMBOL       TYPE
+count        int

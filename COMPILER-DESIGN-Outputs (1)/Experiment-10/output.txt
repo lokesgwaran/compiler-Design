@@ -1,0 +1,14 @@
+EXPERIMENT 10: Left Factoring of Grammar
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp10
+Original:
+S -> iEtS | iEtSeS | a
+E -> b
+
+After left factoring:
+S  -> iEtS S' | a
+S' -> eS | epsilon
+E  -> b

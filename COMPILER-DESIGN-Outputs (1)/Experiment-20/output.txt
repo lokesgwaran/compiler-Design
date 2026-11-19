@@ -1,0 +1,13 @@
+EXPERIMENT 20: LEX - Extract Constants, Count Macros and Header Files
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp20 < sample.c
+Constants found:
+3.14
+30
+"hello"
+
+Macro definitions : 1
+Header files      : 2

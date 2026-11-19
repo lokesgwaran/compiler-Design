@@ -1,0 +1,11 @@
+EXPERIMENT 25: LEX - Identify Capital Words
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp25
+Enter a sentence: HELLO Compiler DESIGN 2026
+Capital words found:
+HELLO
+DESIGN
+Total capital words: 2

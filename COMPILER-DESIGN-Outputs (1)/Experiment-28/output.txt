@@ -1,0 +1,11 @@
+EXPERIMENT 28: LEX - Mobile Number Validation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp28
+Enter mobile number: 9876543210
+9876543210 : VALID MOBILE NUMBER
+
+Enter mobile number: 12345
+12345 : INVALID MOBILE NUMBER

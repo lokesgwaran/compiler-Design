@@ -1,0 +1,17 @@
+EXPERIMENT 16: Compiler Backend - Target Code Generation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp16
+Intermediate code:
+t1 = b * c
+t2 = a + t1
+x  = t2
+
+Target code (sample):
+MOV R0, b
+MUL R0, c
+MOV R1, a
+ADD R1, R0
+MOV x, R1

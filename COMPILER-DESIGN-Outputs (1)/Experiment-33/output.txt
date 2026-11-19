@@ -1,0 +1,11 @@
+EXPERIMENT 33: LEX - URL Validation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp33
+Enter URL: https://www.example.com
+https://www.example.com : VALID URL
+
+Enter URL: htp:/bad
+htp:/bad : INVALID URL

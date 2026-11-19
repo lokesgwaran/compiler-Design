@@ -1,0 +1,12 @@
+EXPERIMENT 24: LEX - Count and Remove Comments
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp24 < input.c
+Comment lines/blocks detected: 2
+Block comment removed: /*varible declaration*/
+Line comment removed: //adding two numbers
+
+Output written to: output.c
+Comment removal completed.

@@ -1,0 +1,17 @@
+EXPERIMENT 40: FLEX - Token Separation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ flex exp40.l
+$ gcc lex.yy.c -lfl -o exp40
+$ ./exp40 < sample.c
+TOKEN: KEYWORD     VALUE: int
+TOKEN: IDENTIFIER  VALUE: a
+TOKEN: IDENTIFIER  VALUE: b
+TOKEN: IDENTIFIER  VALUE: c
+TOKEN: OPERATOR    VALUE: =
+TOKEN: CONSTANT    VALUE: 30
+TOKEN: KEYWORD     VALUE: printf
+TOKEN: STRING      VALUE: "hello"
+FLEX scanning completed.

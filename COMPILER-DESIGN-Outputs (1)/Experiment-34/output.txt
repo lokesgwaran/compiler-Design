@@ -1,0 +1,11 @@
+EXPERIMENT 34: LEX - Date of Birth Validation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp34
+Enter DOB (DD/MM/YYYY): 15/08/2005
+15/08/2005 : VALID DATE
+
+Enter DOB (DD/MM/YYYY): 31/02/2005
+31/02/2005 : INVALID DATE

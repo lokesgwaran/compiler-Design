@@ -1,0 +1,16 @@
+EXPERIMENT 01: Lexical Analyzer - Identifiers, Constants and Operators
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ gcc exp01.c -o exp01
+$ ./exp01
+Enter a statement: int total = a + 25;
+TOKEN          TYPE
+int            KEYWORD
+total          IDENTIFIER
+=              OPERATOR
+a              IDENTIFIER
++              OPERATOR
+25             CONSTANT
+;              DELIMITER

@@ -1,0 +1,11 @@
+EXPERIMENT 14: Three Address Code Generation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp14
+Enter expression: a = b + c * d
+Three Address Code:
+t1 = c * d
+t2 = b + t1
+a  = t2

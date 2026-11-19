@@ -1,0 +1,16 @@
+EXPERIMENT 03: Lexical Analyzer - Ignore Spaces, Tabs, Newlines and Comments
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp03
+Input: int   sum = a + b;   // addition
+Recognized tokens:
+KEYWORD     int
+IDENTIFIER  sum
+OPERATOR    =
+IDENTIFIER  a
+OPERATOR    +
+IDENTIFIER  b
+DELIMITER   ;
+Ignored: whitespace and comment

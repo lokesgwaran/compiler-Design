@@ -1,0 +1,13 @@
+EXPERIMENT 04: Lexical Analyzer - Arithmetic Operators
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp04
+Enter an expression: a+b*c-d/e
+Operators found:
++  Addition
+*  Multiplication
+-  Subtraction
+/  Division
+Total operators: 4

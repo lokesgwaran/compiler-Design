@@ -1,0 +1,11 @@
+EXPERIMENT 35: LEX - Check Whether Input Is a Digit
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp35
+Enter a character: 7
+7 is a DIGIT
+
+Enter a character: A
+A is NOT A DIGIT

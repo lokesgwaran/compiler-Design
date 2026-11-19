@@ -1,0 +1,14 @@
+EXPERIMENT 17: LEADING Set Computation
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp17
+Grammar:
+E -> E+T | T
+T -> T*F | F
+F -> (E) | id
+
+LEADING(E) = { +, *, (, id }
+LEADING(T) = { *, (, id }
+LEADING(F) = { (, id }

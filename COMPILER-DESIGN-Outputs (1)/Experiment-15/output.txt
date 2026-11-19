@@ -1,0 +1,12 @@
+EXPERIMENT 15: LEX - Count Characters, Words and Lines
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp15
+Input file: sample.c
+Characters : 146
+Words      : 31
+Lines      : 8
+File processed successfully.
+Note: illustrative counts; exact values depend on whitespace and token rules.

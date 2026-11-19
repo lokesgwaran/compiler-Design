@@ -1,0 +1,12 @@
+EXPERIMENT 39: LEX - Replace a Word in a File
+========================================================================
+SAMPLE OUTPUT — illustrative terminal transcript; not captured from a compiled source program.
+Use this as a formatting/reference example and verify against your own program.
+
+$ ./exp39
+Input file : input.txt
+Word to replace : cat
+Replacement word : dog
+Original: cat is a cat
+Updated : dog is a dog
+Output saved to output.txt
