@@ -1,0 +1,27 @@
+=== Alignment Rule: packed ===
+count      | int                       | Width: 4   | Offset: 0   | global (level 0)
+ratio      | float                     | Width: 8   | Offset: 4   | global (level 0)
+flag       | boolean                   | Width: 1   | Offset: 12  | global (level 0)
+grade      | char                      | Width: 1   | Offset: 13  | global (level 0)
+ptr        | pointer(int)              | Width: 4   | Offset: 14  | global (level 0)
+matrix     | array(3, array(4, int))   | Width: 48  | Offset: 18  | global (level 0)
+Total Storage Footprint: 66 Bytes
+
+=== Alignment Rule: 4byte ===
+count      | int                       | Width: 4   | Offset: 0   | global (level 0)
+ratio      | float                     | Width: 8   | Offset: 4   | global (level 0)
+flag       | boolean                   | Width: 1   | Offset: 12  | global (level 0)
+grade      | char                      | Width: 1   | Offset: 16  | global (level 0)
+ptr        | pointer(int)              | Width: 4   | Offset: 20  | global (level 0)
+matrix     | array(3, array(4, int))   | Width: 48  | Offset: 24  | global (level 0)
+Total Storage Footprint: 72 Bytes
+
+=== Alignment Rule: 8byte ===
+count      | int                       | Width: 4   | Offset: 0   | global (level 0)
+ratio      | float                     | Width: 8   | Offset: 8   | global (level 0)
+flag       | boolean                   | Width: 1   | Offset: 16  | global (level 0)
+grade      | char                      | Width: 1   | Offset: 24  | global (level 0)
+ptr        | pointer(int)              | Width: 4   | Offset: 32  | global (level 0)
+matrix     | array(3, array(4, int))   | Width: 48  | Offset: 40  | global (level 0)
+Total Storage Footprint: 88 Bytes
+
