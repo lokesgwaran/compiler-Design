@@ -1,0 +1,9 @@
+MiniLang Symbol Table:
+  x     | type=int   | offset=0 | size=4B
+  y     | type=int   | offset=4 | size=4B
+  rate  | type=float | offset=8 | size=4B
+
+MiniLang Generated TAC:
+  t1 = 5 * 2
+  t2 = y + t1
+  x = t2

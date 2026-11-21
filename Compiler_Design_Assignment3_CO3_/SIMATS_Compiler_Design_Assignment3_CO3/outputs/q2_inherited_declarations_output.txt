@@ -1,0 +1,3 @@
+Symbol Table after 'float a, b, c;': {'a': 'float', 'b': 'float', 'c': 'float'}
+Duplicate Check -> Error: Redeclaration of variable 'b' in the same scope
+Undeclared Check -> Error: Identifier 'z' used before declaration
