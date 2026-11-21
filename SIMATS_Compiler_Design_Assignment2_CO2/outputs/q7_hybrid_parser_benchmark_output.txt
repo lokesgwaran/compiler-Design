@@ -1,0 +1,2 @@
+Hybrid Operator-Precedence AST: ('OR', ('AND', ('<', 'moisture', '30'), ('>', 'temp', '25')), ('==', 'rain', '0'))
+Iterative Operations Count: 13 (C Call-Stack Depth = O(1) constant)

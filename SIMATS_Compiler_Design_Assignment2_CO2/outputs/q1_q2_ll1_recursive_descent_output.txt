@@ -1,0 +1,33 @@
+Input: r * ( p + f ) - d $ -> Parsing succeeded! (30 steps)
+  E -> T E'
+  T -> F T'
+  F -> id (r)
+  Match 'r'
+  T' -> * F T'
+  Match '*'
+  F -> ( E )
+  Match '('
+  E -> T E'
+  T -> F T'
+  F -> id (p)
+  Match 'p'
+  T' -> epsilon
+  E' -> + T E'
+  Match '+'
+  T -> F T'
+  F -> id (f)
+  Match 'f'
+  T' -> epsilon
+  E' -> epsilon
+  Match ')'
+  T' -> epsilon
+  E' -> - T E'
+  Match '-'
+  T -> F T'
+  F -> id (d)
+  Match 'd'
+  T' -> epsilon
+  E' -> epsilon
+  Match '$'
+
+Invalid Input 'r * + f $' -> Syntax Error at index 2: unexpected '+'

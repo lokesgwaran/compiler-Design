@@ -1,0 +1,8 @@
+Input Tokens: IF moisture < AND temp > 25 THEN irrigate(10);
+[Syntax Error] Expected numeric threshold after '<', found 'AND'
+  -> Panic-mode discarding token: 'AND'
+  -> Panic-mode discarding token: 'temp'
+  -> Panic-mode discarding token: '>'
+  -> Panic-mode discarding token: '25'
+  -> Synchronized at token: 'THEN' (Popped Cond, resuming Action)
+Resumed parsing Action cleanly: irrigate(10);

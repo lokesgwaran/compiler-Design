@@ -1,0 +1,9 @@
+Shift-Reduce Parsing Trace for: id + id * id
+
+STDERR:
+Traceback (most recent call last):
+  File "/home/bard/SIMATS_Compiler_Design_Assignment2_CO2/src/q3_shift_reduce_and_op_prec.py", line 35, in <module>
+    for st, bf, act in shift_reduce_trace(["id", "+", "id", "*", "id"]):
+  File "/home/bard/SIMATS_Compiler_Design_Assignment2_CO2/src/q3_shift_reduce_and_op_prec.py", line 28, in shift_reduce_trace
+    tok = buf.pop(0)
+IndexError: pop from empty list
