@@ -1,0 +1,13 @@
+Idx | Quadruple                 | Triple               | Indirect
+0   | (uminus, a, -, t1)        | (uminus, a, -)       | Ptr[0] -> (0)
+1   | (*, b, c, t2)             | (*, b, c)            | Ptr[1] -> (1)
+2   | (inttofloat, t2, -, t3)   | (inttofloat, t2, -)  | Ptr[2] -> (2)
+3   | (+, t1, t3, t4)           | (+, t1, t3)          | Ptr[3] -> (3)
+4   | (*, i, 16, t5)            | (*, i, 16)           | Ptr[4] -> (4)
+5   | (+, t5, 4, t6)            | (+, t5, 4)           | Ptr[5] -> (5)
+6   | (=[], A, t6, t7)          | (=[], A, t6)         | Ptr[6] -> (6)
+7   | (inttofloat, t7, -, t8)   | (inttofloat, t7, -)  | Ptr[7] -> (7)
+8   | (+, t4, t8, t9)           | (+, t4, t8)          | Ptr[8] -> (8)
+9   | (=*, p, -, t10)           | (=*, p, -)           | Ptr[9] -> (9)
+10  | (inttofloat, t10, -, t11) | (inttofloat, t10, -) | Ptr[10] -> (10)
+11  | (+, t9, t11, res)         | (+, t9, t11)         | Ptr[11] -> (11)

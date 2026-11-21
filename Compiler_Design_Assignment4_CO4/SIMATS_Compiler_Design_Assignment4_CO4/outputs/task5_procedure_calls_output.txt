@@ -1,0 +1,2 @@
+Left-to-Right pair(x, inc()): [5, 6]
+Right-to-Left pair(x, inc()): [6, 6]

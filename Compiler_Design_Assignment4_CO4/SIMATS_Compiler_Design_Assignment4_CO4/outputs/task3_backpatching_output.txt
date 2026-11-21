@@ -1,0 +1,10 @@
+100: if a < b goto 102
+101: goto 109
+102: if c == d goto 109
+103: goto 104
+104: if e > f goto 109
+105: goto 106
+106: t1 = x + 1 
+107: x = t1 
+108: goto 100
+Consistency Check: []
