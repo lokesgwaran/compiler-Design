@@ -1,0 +1,8 @@
+RULE ssh_attack IF src_ip == 10.0.0.5 AND port == 22 AND attempts > 5 THEN ALERT "SSH brute force";
+RULE min_ip IF src_ip == 0.0.0.0 THEN LOG "Zero IP";
+RULE max_ip IF src_ip == 255.255.255.255 THEN DROP "Broadcast";
+RULE max_port IF port == 65535 THEN ALERT "High ephemeral port";
+RULE big_num IF attempts == 65536 THEN LOG "Above port range";
+RULE bad_ip IF src_ip == 10.0.300.5 THEN ALERT "Bad IP";
+RULE bad_str IF port == 80 THEN ALERT "Login failed;
+RULE bad_sym IF port == 22 @ attempts > 5 THEN DROP "Err";

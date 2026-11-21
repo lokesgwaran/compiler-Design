@@ -1,0 +1,27 @@
+Total Valid Tokens Emitted: 102
+Symbol Table Entries (14): {'ssh_attack': 0, 'src_ip': 1, 'port': 2, 'attempts': 3, 'min_ip': 4, 'max_ip': 5, 'max_port': 6, 'big_num': 7, 'ioc_v2': 8, 'url': 9, 'cve': 10, 'bad_ip': 11, 'bad_str': 12, 'bad_sym': 13}
+
+First 18 Tokens (Sample ssh_attack Rule):
+   1. <RULE, KW_RULE>
+   2. <ID, sym_idx:0 (ssh_attack)>
+   3. <IF, KW_IF>
+   4. <ID, sym_idx:1 (src_ip)>
+   5. <RELOP, ==>
+   6. <IPV4, 10.0.0.5>
+   7. <AND, KW_AND>
+   8. <ID, sym_idx:2 (port)>
+   9. <RELOP, ==>
+  10. <PORT_NUM, 22>
+  11. <AND, KW_AND>
+  12. <ID, sym_idx:3 (attempts)>
+  13. <RELOP, >>
+  14. <PORT_NUM, 5>
+  15. <THEN, KW_THEN>
+  16. <ALERT, KW_ALERT>
+  17. <STRING, "SSH brute force">
+  18. <SEMI, ;>
+
+Captured Lexical Errors (Continuous Recovery):
+  [Line 8] Invalid IPv4 octet range: 10.0.300.5
+  [Line 9] Unterminated string literal: "Login failed;
+  [Line 10] Illegal symbol/malformed token: @
